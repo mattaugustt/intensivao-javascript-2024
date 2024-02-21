@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://img.freepik.com/fotos-gratis/fundo-de-papel-de-parede-colorido-desfocado-vivido_58702-2433.jpg?w=740&t=st=1706570773~exp=1706571373~hmac=b02646329334a01eec884ec62b9be0b2bbd2c5663fe96e7d45333592fa293c71');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    border: none;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 23px;
+  }
+  
+  #botoes {
+    width: 100%;
+  }
+  
+  .botao {
+    background-color:  transparent;
+    border: none;
+    margin: 8px;
+    font-size: 50px;
+    cursor: pointer; 
+  }
+  
+  #imagem-capa {
+    max-width: 300px; 
+    height: auto;
+  }
+  
+  .botao:hover {
+    color:#51546d;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head> 
+  <title>Meu audiobook</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel='stylesheet' href='./style.css'>
+  
+</head>
+<body>  
+  <h1>Audio Book</h1>
+  
+  <div>
+  <!-- capa -->
+    <div id='capa'>
+      <img src='./images/dom-casmurro.jpeg' alt='' id='imagem-capa'>
+    </div>
+
+  <!-- dados -->
+    <div id='dados'>
+      <p id='livro'>Dom Casmurro</p>
+      <p id="autor">Machado de Assis</p>
+      <p id='capitulo'>Capitulo 1</p>
+    </div>
+    
+    <!-- audio que irá tocar na pagina -->
+    <audio id='audio-capitulo' src='./books/dom-casmurro/1.mp3'></audio>
+
+  <!-- funções -->
+    <div id='botoes'>
+  <!-- botão - voltar -->
+      <button id='anterior' class='bi bi-skip-backward-fill botao'></button>
+
+  <!-- botão - play -->
+      <button id='play-pause' class="bi bi-play-circle-fill botao"></button>
+
+  <!-- botao - proximo -->
+      <button id='proximo' class='bi bi-skip-forward-fill botao'></button>
+    </div>
+  </div>
+  
+<!-- rodapé -->
+  <footer> 
+  </footer>
+  <script src='./script.js'></script>
+</body>
